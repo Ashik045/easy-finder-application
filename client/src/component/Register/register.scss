@@ -1,0 +1,48 @@
+.register {
+  background-color: #ebebf1;
+  max-width: 100%;
+  padding: 35px 0px 60px;
+
+  .singUpForm {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 590px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    background-color: white;
+    border-radius: 20px;
+
+    .formLeft {
+      background-color: rgb(26, 26, 219);
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px;
+      padding: 15px;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-top: 150px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .register {
+    background-color: #ebebf1;
+    max-width: 100%;
+    padding: 40px 0px 60px;
+
+    .singUpForm {
+      display: grid;
+      grid-template-columns: 100%;
+      width: 90%;
+      margin-left: 5%;
+
+      .formLeft {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.jobType {
+  background-color: #fbf9f7;
+}
+
+.jobType .jTypeHeader {
+  padding: 100px 0 60px;
+  text-align: center;
+}
+
+.jobType .cardRow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.jobType .cardRow .Jcard {
+  padding: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.jobType .cardRow .Jcard p {
+  font-size: 20px;
+}
+
+.jobType .cardRow .Jcard p span {
+  background-color: white;
+  padding: 15px 17px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  color: #d99585;
+}
+
+.jobType .cardRow .Jcard h2 {
+  margin: 30px 0 20px;
+}
+
+.jobType .cardRow .Jcard h5 {
+  padding: 0px 25px;
+}
+
+.jobType .cardRow .Jcard a {
+  color: #c26e5b;
+  text-decoration: none;
+}
+
+.jobType .cardRow .Jcard a:hover {
+  text-decoration: overline;
+}
+
+@media screen and (max-width: 850px) {
+  .jobType {
+    text-align: center;
+  }
+  .jobType .cardRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .jobType .cardRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=jobtype.css.map */

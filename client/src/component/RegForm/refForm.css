@@ -1,0 +1,31 @@
+.mainForm {
+  padding: 80px 35px 0px;
+}
+
+.mainForm form input[type="submit"] {
+  background-color: #2424ce;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.mainForm form input {
+  border-radius: 5px;
+  display: block;
+}
+
+.mainForm .fandl {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 20px;
+  margin: 10px 0;
+  color: gainsboro;
+}
+
+.mainForm p {
+  color: red;
+  margin-left: 40px;
+}
+/*# sourceMappingURL=refForm.css.map */

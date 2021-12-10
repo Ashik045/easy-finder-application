@@ -1,0 +1,234 @@
+.nestSecRow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% 55%;
+      grid-template-columns: 45% 55%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nestSecRow .nfRight .nfImg {
+  width: 90%;
+  position: relative;
+}
+
+.nestSecRow .nfRight .nfImg img {
+  width: 90%;
+  height: auto;
+  float: right;
+}
+
+.nestSecRow .nfRight .nfImg .divOne {
+  position: absolute;
+  top: 50px;
+  left: -35px;
+  background-color: white;
+  z-index: 20;
+  height: 170px;
+  width: 48%;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 10px;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .firstRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .firstRow .icons {
+  padding: 4px;
+  color: #f07070;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .firstRow .frowBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .firstRow .frowBody .bleft {
+  padding: 0px 4px;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .firstRow .frowBody .bleft p {
+  margin-top: -7px;
+  font-size: 13px;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .firstRow .frowBody .bright p:first-child {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .firstRow .frowBody .bright p {
+  font-size: 13px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .secRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .secRow .bleft h6 {
+  color: #f07070;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .secRow .bleft p {
+  font-size: 13px;
+  margin-top: -7px;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .secRow .bright {
+  margin-left: auto;
+  color: #f07070;
+  margin-top: auto;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .thirdRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nestSecRow .nfRight .nfImg .divOne .thirdRow p {
+  font-size: 15px;
+  margin: 10px 0px 0px 10px;
+}
+
+.nestSecRow .nfRight .nfImg .divTwo {
+  text-align: center;
+  position: absolute;
+  bottom: -297px;
+  right: -60px;
+  background-color: white;
+  z-index: 20;
+  width: 28%;
+  height: 210px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nestSecRow .nfRight .nfImg .divTwo p:first-child {
+  font-size: 30px;
+}
+
+.nestSecRow .nfRight .nfImg .divTwo h6 {
+  margin-top: -12px;
+}
+
+.nestSecRow .nfRight .nfImg .divTwo p {
+  font-size: 10px;
+  margin-top: -4px;
+}
+
+.nestSecRow .nfRight .nfImg .divTwo h5 {
+  height: 50px;
+  width: 50px;
+  margin-left: 32%;
+}
+
+.nestSecRow .nfRight .nfImg .divTwo .btnsss {
+  background-color: #f07070;
+  border: none;
+  padding: 3px 15px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 990px) {
+  .nestSecRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -50px;
+  }
+  .nestSecRow .nfRight .nfImg {
+    width: 90%;
+    position: relative;
+  }
+  .nestSecRow .nfRight .nfImg img {
+    width: 100%;
+    height: auto;
+    float: right;
+  }
+  .nestSecRow .nfRight .nfImg .divTwo {
+    position: absolute;
+    bottom: -400px;
+    right: -60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nestSecRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nestSecRow .nfRight .nfImg {
+    width: 90%;
+    position: relative;
+  }
+  .nestSecRow .nfRight .nfImg img {
+    width: 100%;
+    height: auto;
+    float: right;
+  }
+  .nestSecRow .nfRight .nfImg .divOne {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 15%;
+  }
+  .nestSecRow .nfRight .nfImg .divTwo {
+    position: absolute;
+    bottom: -330px;
+    right: -50px;
+    width: 35%;
+  }
+  .nestSecRow .nfRight .nfImg .divTwo p:first-child {
+    font-size: 20px;
+  }
+  .nestSecRow .nfRight .nfImg .divTwo h5 {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nestSecRow .nfRight .nfImg .divTwo {
+    position: absolute;
+    bottom: -280px;
+    right: -20px;
+    width: 34%;
+  }
+}
+/*# sourceMappingURL=nextSecond.css.map */

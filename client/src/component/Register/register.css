@@ -1,0 +1,52 @@
+.register {
+  background-color: #ebebf1;
+  max-width: 100%;
+  padding: 35px 0px 60px;
+}
+
+.register .singUpForm {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% 55%;
+      grid-template-columns: 45% 55%;
+  height: 590px;
+  width: 80%;
+  margin-left: 10%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.register .singUpForm .formLeft {
+  background-color: #1a1adb;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 15px;
+}
+
+.register .singUpForm .formLeft img {
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 767px) {
+  .register {
+    background-color: #ebebf1;
+    max-width: 100%;
+    padding: 40px 0px 60px;
+  }
+  .register .singUpForm {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .register .singUpForm .formLeft {
+    display: none;
+  }
+}
+/*# sourceMappingURL=register.css.map */

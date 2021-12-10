@@ -1,0 +1,32 @@
+.nextJob .nextJobHeader {
+  margin: 80px 0;
+  text-align: center;
+}
+
+.nextJob .nextJobHeader h1 {
+  font-weight: 700;
+}
+
+.nextJob .nextJobHeader h6 {
+  letter-spacing: 1px;
+  padding: 18px 25px;
+}
+
+.nextJob .nextJrows .nextFirst {
+  margin: 100px 0px 80px;
+}
+
+.nextJob .nextJrows .nextSecond {
+  margin: 100px 0px 80px;
+}
+
+.nextJob .nextJrows .nextThird {
+  margin: 100px 0px 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .nextJob .nextJrows .nextThird {
+    margin-top: 180px;
+  }
+}
+/*# sourceMappingURL=nextJob.css.map */

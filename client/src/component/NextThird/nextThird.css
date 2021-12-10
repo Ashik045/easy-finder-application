@@ -1,0 +1,194 @@
+.nextThirdRow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 55% 45%;
+      grid-template-columns: 55% 45%;
+  grid-gap: 15px;
+}
+
+.nextThirdRow .leftSide {
+  position: relative;
+}
+
+.nextThirdRow .leftSide img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.nextThirdRow .leftSide .smBox {
+  width: 39%;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  right: 1%;
+  z-index: 10;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.nextThirdRow .leftSide .smBox .avatxt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: -5px;
+}
+
+.nextThirdRow .leftSide .smBox .avatxt1 .avatxtt {
+  margin-left: 6%;
+  color: #f06060;
+}
+
+.nextThirdRow .leftSide .smBox .avatxt1 .avatxtt p {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  font-size: 14px;
+}
+
+.nextThirdRow .leftSide .smBox .avatxt1 .avatxtt p:last-child {
+  margin-top: -19px;
+}
+
+.nextThirdRow .leftSide .smBox .avatxt2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  margin-bottom: -5px;
+}
+
+.nextThirdRow .leftSide .smBox .avatxt2 .avatxtt {
+  color: #2a65e4;
+  text-align: right;
+}
+
+.nextThirdRow .leftSide .smBox .avatxt2 .avatxtt p {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  font-size: 14px;
+}
+
+.nextThirdRow .leftSide .smBox .avatxt2 .avatxtt p:last-child {
+  margin-top: -19px;
+}
+
+.nextThirdRow .leftSide .bgBox {
+  width: 40%;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 140px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.nextThirdRow .leftSide .bgBox .fava1 {
+  position: absolute;
+  top: 20px;
+  left: -15px;
+}
+
+.nextThirdRow .leftSide .bgBox .fava2 {
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+}
+
+.nextThirdRow .leftSide .bgBox .box2Img {
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  margin-top: -50px;
+  margin-left: 42%;
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+.nextThirdRow .leftSide .bgBox .innerBox {
+  background-color: #f5f0f0;
+  padding: 15px;
+}
+
+.nextThirdRow .leftSide .bgBox .innerBox .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  padding: 0px 5px;
+}
+
+.nextThirdRow .leftSide .bgBox .innerBox .inner .inntxt {
+  padding: 0px 10px;
+}
+
+.nextThirdRow .leftSide .bgBox .innerBox .inner .inntxt p {
+  font-size: 14px;
+  color: #f07070;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  font-weight: bold;
+}
+
+.nextThirdRow .leftSide .bgBox .innerBox .inner p:last-child {
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 990px) {
+  .nextThirdRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .nextThirdRow .rightSide {
+    margin-top: 30px;
+    margin-bottom: -70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nextThirdRow {
+    margin-top: 180px;
+  }
+  .nextThirdRow .leftSide .smBox .avatxt1 .avatxtt p {
+    font-size: 11px;
+  }
+  .nextThirdRow .leftSide .smBox .avatxt2 .avatxtt p {
+    font-size: 11px;
+  }
+  .nextThirdRow .leftSide .bgBox {
+    width: 50%;
+  }
+  .nextThirdRow .leftSide .bgBox .innerBox .inner .inntxt {
+    padding: 0px 0px 0px 7px;
+  }
+  .nextThirdRow .leftSide .bgBox .innerBox .inner .inntxt p {
+    font-size: 10px;
+  }
+  .nextThirdRow .leftSide .bgBox .innerBox .inner3 {
+    display: none;
+  }
+  .nextThirdRow .rightSide {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nextThirdRow {
+    margin-top: 280px;
+  }
+  .nextThirdRow .rightSide {
+    margin-top: 160px;
+  }
+}
+/*# sourceMappingURL=nextThird.css.map */

@@ -1,0 +1,195 @@
+.nextThirdRow {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-gap: 15px;
+
+  .leftSide {
+    position: relative;
+    img {
+      width: 80%;
+      height: auto;
+      margin-left: 10%;
+    }
+
+    .smBox {
+      width: 39%;
+      padding: 10px;
+      background-color: white;
+      position: absolute;
+      top: 60px;
+      right: 1%;
+      z-index: 10;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-bottom-right-radius: 15px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+      .avatxt1 {
+        display: flex;
+        margin-bottom: -5px;
+
+        .avatxtt {
+          margin-left: 6%;
+          color: rgb(240, 96, 96);
+
+          p {
+            filter: blur(2px);
+            font-size: 14px;
+          }
+          p:last-child {
+            margin-top: -19px;
+          }
+        }
+      }
+
+      .avatxt2 {
+        display: flex;
+        float: right;
+        margin-bottom: -5px;
+
+        .avatxtt {
+          color: rgb(42, 101, 228);
+          text-align: right;
+
+          p {
+            filter: blur(2px);
+            font-size: 14px;
+          }
+          p:last-child {
+            margin-top: -19px;
+          }
+        }
+      }
+    }
+
+    .bgBox {
+      width: 40%;
+      padding: 10px;
+      background-color: white;
+      position: absolute;
+      top: 140px;
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+
+      .fava1 {
+        position: absolute;
+        top: 20px;
+        left: -15px;
+      }
+
+      .fava2 {
+        position: absolute;
+        bottom: 10px;
+        right: -10px;
+      }
+
+      .box2Img {
+        text-align: center;
+        height: 45px;
+        width: 45px;
+        margin-top: -50px;
+        margin-left: 42%;
+        border-radius: 50%;
+        border: 1.5px solid white;
+      }
+
+      .innerBox {
+        background-color: rgb(245, 240, 240);
+        padding: 15px;
+
+        .inner {
+          display: flex;
+          align-items: center;
+          background-color: white;
+          margin-bottom: 4px;
+          border-radius: 8px;
+          padding: 0px 5px;
+
+          .inntxt {
+            padding: 0px 10px;
+
+            p {
+              font-size: 14px;
+              color: #f07070;
+              filter: blur(2px);
+              font-weight: bold;
+            }
+          }
+
+          p:last-child {
+            margin-top: -15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .nextThirdRow {
+    display: grid;
+    grid-template-columns: 100%;
+
+    .rightSide {
+      margin-top: 30px;
+      margin-bottom: -70px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nextThirdRow {
+    margin-top: 180px;
+    .leftSide {
+      .smBox {
+        .avatxt1 {
+          .avatxtt {
+            p {
+              font-size: 11px;
+            }
+          }
+        }
+
+        .avatxt2 {
+          .avatxtt {
+            p {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+
+      .bgBox {
+        width: 50%;
+        .innerBox {
+          .inner {
+            .inntxt {
+              padding: 0px 0px 0px 7px;
+              p {
+                font-size: 10px;
+              }
+            }
+          }
+
+          .inner3 {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .rightSide {
+      margin-top: 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nextThirdRow {
+    margin-top: 280px;
+
+    .rightSide {
+      margin-top: 160px;
+    }
+  }
+}

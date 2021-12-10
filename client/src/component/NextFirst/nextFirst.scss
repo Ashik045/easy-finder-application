@@ -1,0 +1,350 @@
+.nestFrow {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-gap: 10px;
+  justify-content: center;
+
+  .nfLeft {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+
+    .nfImg {
+      img {
+        width: 85%;
+        height: auto;
+      }
+
+      .nfDiv1 {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        background-color: white;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+          rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        width: 45%;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+
+        img {
+          height: 60px;
+          width: 70px;
+          border-radius: 15px;
+          padding: 0px 5px;
+        }
+
+        .ntxt {
+          padding: 4px 8px;
+
+          h5 {
+            font-size: 1.5vw;
+          }
+
+          p {
+            font-size: 1.2vw;
+          }
+        }
+      }
+
+      .nfDiv2 {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        background-color: white;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 8px 32px,
+          rgba(17, 17, 26, 0.05) 0px 4px 16px;
+        width: 45%;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        position: absolute;
+        top: 110px;
+        left: -70px;
+
+        p:first-child {
+          font-size: 35px;
+          color: #f07070;
+          padding: 0px 5px;
+        }
+
+        .ntxt2 {
+          padding: 3px 5px;
+
+          h5 {
+            font-size: 1.5vw;
+            color: #f07070;
+          }
+
+          p {
+            font-size: 1.2vw;
+          }
+        }
+      }
+
+      .nfDiv3 {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        background-color: white;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 8px 32px,
+          rgba(17, 17, 26, 0.05) 0px 4px 16px;
+        width: 43%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        position: absolute;
+        top: 200px;
+        right: 90px;
+
+        p:first-child {
+          height: 50px;
+          width: 50px;
+          color: #f07070;
+        }
+
+        .ntxt3 {
+          padding: 3px 5px;
+
+          h5 {
+            font-size: 1.5vw;
+            color: #f07070;
+          }
+
+          p {
+            font-size: 1.2vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .nestFrow {
+    display: grid;
+    grid-template-columns: 100%;
+
+    .nfLeft {
+      position: relative;
+
+      .nfImg {
+        .nfDiv1 {
+          .ntxt {
+            p {
+              display: none;
+            }
+          }
+        }
+
+        .nfDiv2 {
+          .ntxt2 {
+            p {
+              display: none;
+            }
+          }
+        }
+
+        .nfDiv3 {
+          .ntxt3 {
+            p {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nestFrow {
+    display: grid;
+    grid-template-columns: 100%;
+
+    .nfLeft {
+      position: relative;
+
+      .nfImg {
+        .nfDiv1 {
+          position: absolute;
+          top: 50px;
+          right: -20px;
+          width: 45%;
+
+          img {
+            height: 55px;
+            width: 55px;
+            border-radius: 14px;
+            padding: 0px 3px;
+          }
+
+          .ntxt {
+            padding: 1px 5px;
+
+            h5 {
+              font-size: 1.4vw;
+              color: #f07070;
+            }
+
+            p {
+              display: block;
+              font-size: 1.1vw;
+            }
+          }
+        }
+
+        .nfDiv2 {
+          position: absolute;
+          top: 100px;
+          left: -70px;
+          width: 45%;
+
+          p:first-child {
+            font-size: 25px;
+            color: #f07070;
+            padding: 0px 3px;
+          }
+
+          .ntxt2 {
+            padding: 1px 4px;
+            text-align: center;
+
+            h5 {
+              font-size: 1.4vw;
+              color: #f07070;
+            }
+
+            p {
+              display: block;
+              font-size: 1.1vw;
+            }
+          }
+        }
+
+        .nfDiv3 {
+          position: absolute;
+          top: 200px;
+          right: 90px;
+
+          p:first-child {
+            height: 40px;
+            width: 40px;
+            color: #f07070;
+            padding: 0px 3px;
+          }
+
+          .ntxt3 {
+            padding: 1px 4px;
+            text-align: center;
+
+            h5 {
+              font-size: 1.4vw;
+              color: #f07070;
+            }
+
+            p {
+              display: block;
+              font-size: 1.1vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nestFrow {
+    .nfLeft {
+      position: relative;
+
+      .nfImg {
+        .nfDiv1 {
+          position: absolute;
+          top: 30px;
+          right: -10px;
+          width: 45%;
+          border-bottom-right-radius: 15px;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+
+          img {
+            height: 47px;
+            width: 47px;
+            border-radius: 9px;
+            padding: 0px 2px;
+          }
+
+          .ntxt {
+            padding: 0px 1px;
+
+            h5 {
+              font-size: 10px;
+            }
+
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+
+        .nfDiv2 {
+          position: absolute;
+          top: 55px;
+          left: -50px;
+          width: 45%;
+          border-bottom-left-radius: 15px;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+
+          p:first-child {
+            font-size: 15px;
+            color: #f07070;
+            padding: 0px 2px;
+          }
+
+          .ntxt2 {
+            padding: 0px 1px;
+
+            h5 {
+              font-size: 10px;
+            }
+
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+
+        .nfDiv3 {
+          position: absolute;
+          top: 113px;
+          right: 60px;
+
+          p:first-child {
+            height: 30px;
+            width: 30px;
+            color: #f07070;
+            padding: 0px 1px;
+          }
+
+          .ntxt3 {
+            padding: 0px 0px;
+
+            h5 {
+              font-size: 10px;
+            }
+
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Roboto:ital,wght@1,300&display=swap");
+.cardCol {
+  padding: 15px;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 3px;
+}
+
+.cardCol .headerr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardCol .headerr img {
+  height: 90px;
+  width: 90px;
+  padding: 20px;
+}
+
+.cardCol .body {
+  padding: 10px;
+}
+
+.cardCol .body h4 {
+  font-size: 20px;
+}
+
+.cardCol .body p {
+  letter-spacing: 1px;
+}
+
+.cardCol .bodyFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.cardCol .bodyFooter button {
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.cardCol .footer {
+  margin: 20px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 10px 0px;
+}
+
+.cardCol .footer h5 {
+  color: #ee8383;
+}
+
+.cardCol:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-transition: ease-out 0.2s;
+  transition: ease-out 0.2s;
+}
+/*# sourceMappingURL=exploreCard.css.map */

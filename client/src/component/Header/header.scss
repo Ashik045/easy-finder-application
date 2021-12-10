@@ -1,0 +1,112 @@
+.header {
+  background-color: #fff9f4;
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    .textSide {
+      display: block;
+      margin-top: 170px;
+      h1 {
+        font-size: 50px;
+        font-weight: 700;
+      }
+
+      h4 {
+        margin: 30px 0;
+      }
+
+      .cprofile {
+        background-color: #f07070;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-weight: 600;
+      }
+    }
+
+    .imgSide {
+      margin-top: 70px;
+      position: relative;
+      margin-bottom: 100px;
+      .bgDown {
+        z-index: 1;
+        width: 80%;
+        float: right;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        h4 {
+          text-align: center;
+          background-color: #d99585;
+          padding: 9px 0;
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+        }
+        img {
+          padding: 10px 30px;
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .headerForm {
+        position: absolute;
+        top: 200px;
+        left: 0;
+        border-radius: 10px;
+        width: 250px;
+        background-color: white;
+        z-index: 20;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        p {
+          padding: 15px 25px 0;
+        }
+        .hForm {
+          padding: 0px 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    .container {
+      display: grid;
+      grid-template-columns: auto;
+
+      .imgSide {
+        margin-top: 60px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    .container {
+      display: grid;
+      grid-template-columns: auto;
+
+      .textSide {
+        display: block;
+        margin-top: 170px;
+        h1 {
+          font-size: 40px;
+          font-weight: 600;
+        }
+      }
+
+      .imgSide {
+        margin-top: 15px;
+
+        .headerForm {
+          margin-top: -100px;
+        }
+      }
+    }
+  }
+}

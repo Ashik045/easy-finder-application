@@ -1,0 +1,182 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff4e3;
+}
+
+.navbar .brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+.navbar .brand img {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar .brand h6 {
+  font-size: 22px;
+}
+
+.navbar .nav_menu a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  padding: 7px 10px;
+}
+
+.navbar .nav_menu a:hover {
+  -webkit-transition: 0.09s;
+  transition: 0.09s;
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.navbar .nav_register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 3%;
+}
+
+.navbar .nav_register button {
+  padding: 7px 9px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #e2f3f5;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.navbar .nav_register button:hover {
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  background-color: #c5e3f6;
+}
+
+.navbar .res_nav {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .navbar .nav_menu {
+    display: none;
+  }
+  .navbar .nav_register {
+    margin-left: auto;
+  }
+  .navbar .res_nav {
+    display: block;
+    margin-right: 30px;
+    position: relative;
+  }
+  .navbar .res_nav .res_nav_menu {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    width: 300px;
+    background-color: #fee9d7;
+    -webkit-animation: scale-up-tr 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-tr 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  .navbar .res_nav .res_nav_menu .res_menu_items a {
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    padding: 7px 10px;
+  }
+  .navbar .res_nav .res_nav_menu .res_menu_items a:hover {
+    -webkit-transition: 0.09s;
+    transition: 0.09s;
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    font-weight: 500;
+    font-size: 19px;
+  }
+  .navbar .res_nav .res_nav_menu .res_menu_items .res_nav_register {
+    margin: 10px;
+    display: none;
+  }
+  .navbar .res_nav .res_nav_menu .res_menu_items .res_nav_register button {
+    padding: 7px 9px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #e2f3f5;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #c5e3f6;
+  }
+  .navbar .res_nav .res_nav_menu .res_menu_items .res_nav_register button:hover {
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+    background-color: #a0cce7;
+  }
+  @-webkit-keyframes scale-up-tr {
+    0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+      -webkit-transform-origin: 100% 0%;
+      transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: 100% 0%;
+      transform-origin: 100% 0%;
+    }
+  }
+  @keyframes scale-up-tr {
+    0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+      -webkit-transform-origin: 100% 0%;
+      transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: 100% 0%;
+      transform-origin: 100% 0%;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar .nav_register {
+    display: none;
+  }
+  .navbar .res_nav {
+    margin-right: 5px;
+  }
+  .navbar .res_nav .res_nav_menu {
+    text-align: center;
+  }
+  .navbar .res_nav .res_nav_menu .res_menu_items .res_nav_register {
+    display: block;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

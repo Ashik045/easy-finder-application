@@ -1,0 +1,35 @@
+.mainloginForm {
+  width: 40%;
+  margin-left: 27%;
+  padding-top: 100px;
+
+  form {
+    input[type="submit"] {
+      background-color: rgb(36, 36, 206);
+      color: white;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    input {
+      border-radius: 5px;
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainloginForm {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .mainloginForm {
+    width: 70%;
+    margin-left: 10%;
+  }
+}
