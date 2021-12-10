@@ -13,7 +13,7 @@ const Helped = () => (
             </h6>
 
             <button type="button" className="helpBtn">
-                Browse all jobs
+                Browse all jobss
             </button>
         </div>
 
